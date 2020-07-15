@@ -1,0 +1,20 @@
+PODS:
+  - NDLog (0.0.3)
+  - NDUtils (0.0.2):
+    - NDLog
+
+DEPENDENCIES:
+  - NDUtils
+
+SPEC REPOS:
+  trunk:
+    - NDLog
+    - NDUtils
+
+SPEC CHECKSUMS:
+  NDLog: 5a87bd8d8dffeb8d147849e5257f46091feacede
+  NDUtils: 52a80148646a0906a2449c627ad69bf59ad4ac91
+
+PODFILE CHECKSUM: 4c10d6b65d95ebdf5fe35ffa4f5d83ada1ce6a6c
+
+COCOAPODS: 1.9.1
