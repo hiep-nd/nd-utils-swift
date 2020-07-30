@@ -6,8 +6,9 @@ target 'NDUtils_Swift' do
   use_frameworks!
 
   # Pods for NDUtils_Swift
-#  pod 'NDUtils', :path => '../NDUtils'
-  pod 'NDUtils'
+  pod 'NDLog', :path => '../NDLog'
+  pod 'NDUtils', :path => '../NDUtils'
+#  pod 'NDUtils'
 
   target 'NDUtils_SwiftTests' do
     # Pods for testing
