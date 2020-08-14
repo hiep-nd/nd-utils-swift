@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA33799924E154AD0061B1DC /* Array+NDUtils_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA33799824E154AD0061B1DC /* Array+NDUtils_Swift.swift */; };
+		BA33799C24E155F70061B1DC /* CATransaction+NDUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA33799B24E155F70061B1DC /* CATransaction+NDUtils.swift */; };
+		BA33799E24E157A10061B1DC /* UINavigationController+NDUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA33799D24E157A10061B1DC /* UINavigationController+NDUtils.swift */; };
+		BA3379A024E157DE0061B1DC /* UIView+NDUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA33799F24E157DE0061B1DC /* UIView+NDUtils.swift */; };
 		BA56486824A49A1F00ABCD10 /* NDUtils_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA56485E24A49A1F00ABCD10 /* NDUtils_Swift.framework */; };
 		BA56486D24A49A1F00ABCD10 /* NDUtils_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA56486C24A49A1F00ABCD10 /* NDUtils_SwiftTests.swift */; };
 		BA56486F24A49A1F00ABCD10 /* NDUtils_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = BA56486124A49A1F00ABCD10 /* NDUtils_Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,6 +35,10 @@
 		7CFF37410C87FD0C5E89737C /* Pods_NDUtils_Swift_NDUtils_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NDUtils_Swift_NDUtils_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6A85C1CDAC1F677CAD67B9 /* Pods-NDUtils_Swift-NDUtils_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDUtils_Swift-NDUtils_SwiftTests.release.xcconfig"; path = "Target Support Files/Pods-NDUtils_Swift-NDUtils_SwiftTests/Pods-NDUtils_Swift-NDUtils_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		9B7277FD6D405A4236D10C28 /* Pods-NDUtils_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NDUtils_Swift.release.xcconfig"; path = "Target Support Files/Pods-NDUtils_Swift/Pods-NDUtils_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		BA33799824E154AD0061B1DC /* Array+NDUtils_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+NDUtils_Swift.swift"; sourceTree = "<group>"; };
+		BA33799B24E155F70061B1DC /* CATransaction+NDUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CATransaction+NDUtils.swift"; sourceTree = "<group>"; };
+		BA33799D24E157A10061B1DC /* UINavigationController+NDUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+NDUtils.swift"; sourceTree = "<group>"; };
+		BA33799F24E157DE0061B1DC /* UIView+NDUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+NDUtils.swift"; sourceTree = "<group>"; };
 		BA56485E24A49A1F00ABCD10 /* NDUtils_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NDUtils_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA56486124A49A1F00ABCD10 /* NDUtils_Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDUtils_Swift.h; sourceTree = "<group>"; };
 		BA56486224A49A1F00ABCD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +84,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BA33799724E1542C0061B1DC /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA33799D24E157A10061B1DC /* UINavigationController+NDUtils.swift */,
+				BA33799F24E157DE0061B1DC /* UIView+NDUtils.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BA33799A24E1559E0061B1DC /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				BA33799B24E155F70061B1DC /* CATransaction+NDUtils.swift */,
+			);
+			path = QuartzCore;
+			sourceTree = "<group>";
+		};
 		BA56485424A49A1E00ABCD10 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				BA96092124BD696E00EB97FB /* Foundation */,
+				BA33799A24E1559E0061B1DC /* QuartzCore */,
+				BA33799724E1542C0061B1DC /* UIKit */,
 				BA56486124A49A1F00ABCD10 /* NDUtils_Swift.h */,
 				BA56486224A49A1F00ABCD10 /* Info.plist */,
 			);
@@ -133,6 +160,7 @@
 		BA96092124BD696E00EB97FB /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				BA33799824E154AD0061B1DC /* Array+NDUtils_Swift.swift */,
 				BA56487824A49A5B00ABCD10 /* String+NDUtils_Swift.swift */,
 			);
 			path = Foundation;
@@ -327,6 +355,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA56487924A49A5B00ABCD10 /* String+NDUtils_Swift.swift in Sources */,
+				BA3379A024E157DE0061B1DC /* UIView+NDUtils.swift in Sources */,
+				BA33799924E154AD0061B1DC /* Array+NDUtils_Swift.swift in Sources */,
+				BA33799C24E155F70061B1DC /* CATransaction+NDUtils.swift in Sources */,
+				BA33799E24E157A10061B1DC /* UINavigationController+NDUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
