@@ -1,20 +1,24 @@
 PODS:
-  - NDLog (0.0.4)
+  - NDLog (0.0.5)
   - NDUtils (0.0.4):
     - NDUtils/Core (= 0.0.4)
+    - NDUtils/Foundation (= 0.0.4)
+    - NDUtils/libextobjc (= 0.0.4)
+    - NDUtils/objc (= 0.0.4)
+    - NDUtils/QuartzCore (= 0.0.4)
+    - NDUtils/UIKit (= 0.0.4)
   - NDUtils/Core (0.0.4)
   - NDUtils/Foundation (0.0.4):
-    - NDLog (~> 0.0.4)
+    - NDLog (~> 0.0.5)
+    - NDUtils/Core
+  - NDUtils/libextobjc (0.0.4):
     - NDUtils/Core
   - NDUtils/objc (0.0.4):
-    - NDLog (~> 0.0.4)
+    - NDLog (~> 0.0.5)
     - NDUtils/Core
   - NDUtils/QuartzCore (0.0.4):
-    - NDUtils/Core
     - NDUtils/objc
   - NDUtils/UIKit (0.0.4):
-    - NDLog (~> 0.0.4)
-    - NDUtils/objc
     - NDUtils/QuartzCore
 
 DEPENDENCIES:
@@ -31,9 +35,9 @@ EXTERNAL SOURCES:
     :path: "../NDUtils"
 
 SPEC CHECKSUMS:
-  NDLog: f84c4c42520a954db34fa487d88a9bcc2ee0100b
-  NDUtils: 10da2be60236409faaab6b59582d8b92b7e4358f
+  NDLog: 2d478a5bc74f17ee56fea08adb6dacdaa36a07e6
+  NDUtils: e44d6272ae161c0a03689d1b8b4359a82ba716ef
 
 PODFILE CHECKSUM: b5a210871fbad2bd8dd6f866e079c6e675eaea37
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

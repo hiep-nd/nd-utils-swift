@@ -48,7 +48,7 @@
 		BA56487824A49A5B00ABCD10 /* String+NDUtils_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+NDUtils_Swift.swift"; sourceTree = "<group>"; };
 		BA6EEA6824A49BBB00B61EC2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BA6EEA6924A49BBB00B61EC2 /* .swift-format */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-format"; sourceTree = "<group>"; };
-		BA6EEA6A24A49BBB00B61EC2 /* NDUtils_Swift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NDUtils_Swift.podspec; sourceTree = "<group>"; };
+		BA6EEA6A24A49BBB00B61EC2 /* NDUtils_Swift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NDUtils_Swift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA6EEA6B24A49BBB00B61EC2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA6EEA6C24A49BBB00B61EC2 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		F0BFF1A4F4EE50039E0F935E /* Pods_NDUtils_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NDUtils_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
