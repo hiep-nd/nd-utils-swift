@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   
   s.subspec 'Core' do |ss|
     ss.source_files = 'NDUtils_Swift/*.{h,m,mm,swift}'
+    ss.dependency 'NDUtils/Core', '~> 0.0.4'
   end
 
   s.subspec 'Foundation' do |ss|
