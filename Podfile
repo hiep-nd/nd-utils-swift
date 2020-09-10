@@ -8,7 +8,9 @@ target 'NDUtils_Swift' do
   # Pods for NDUtils_Swift
   pod 'NDLog', :path => '../NDLog'
   pod 'NDUtils', :path => '../NDUtils'
-#  pod 'NDUtils'
+  pod 'NDUtils/Foundation', :path => '../NDUtils'
+  pod 'NDUtils/QuartzCore', :path => '../NDUtils'
+  pod 'NDUtils/UIKit', :path => '../NDUtils'
 
   target 'NDUtils_SwiftTests' do
     # Pods for testing
