@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double NDUtils_SwiftVersionNumber;
 FOUNDATION_EXPORT const unsigned char NDUtils_SwiftVersionString[];
 
 #import <NDUtils/NDUtils.h>
-
-
