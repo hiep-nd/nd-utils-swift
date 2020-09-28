@@ -33,4 +33,9 @@ extension String {
   public func nd_contains(regexPattern: String) -> Bool {
     NSString(string: self).nd_contains(regexPattern: regexPattern)
   }
+
+  @inlinable
+  public func nd_matchs(regexPattern: String) -> Bool {
+    NSString(string: self).nd_matchs(regexPattern: regexPattern)
+  }
 }
