@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NDUtils_Swift"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "Utility for Foundation, UIKit,...."
   s.description  = <<-DESC
   NDUtils_Swift is a small utility framework for Foundation, UIKit,....
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
   
   s.subspec 'Core' do |ss|
     ss.source_files = 'NDUtils_Swift/*.{h,m,mm,swift}'
-    ss.dependency 'NDUtils/Core', '~> 0.0.4'
+    ss.dependency 'NDUtils/Core', '~> 0.0.5'
   end
 
   s.subspec 'Foundation' do |ss|
     ss.source_files = 'NDUtils_Swift/Foundation/**/*.{h,m,mm,swift}'
     ss.dependency 'NDUtils_Swift/Core'
-    ss.dependency 'NDUtils/Foundation', '~> 0.0.4'
+    ss.dependency 'NDUtils/Foundation', '~> 0.0.5'
   end
   
   s.subspec 'QuartzCore' do |ss|
     ss.source_files = 'NDUtils_Swift/QuartzCore/**/*.{h,m,mm,swift}'
     ss.dependency 'NDUtils_Swift/Core'
-    ss.dependency 'NDUtils/QuartzCore', '~> 0.0.4'
+    ss.dependency 'NDUtils/QuartzCore', '~> 0.0.5'
   end
 
   s.subspec 'UIKit' do |ss|
     ss.source_files = 'NDUtils_Swift/UIKit/**/*.{h,m,mm,swift}'
     ss.dependency 'NDUtils_Swift/Core'
-    ss.dependency 'NDUtils/UIKit', '~> 0.0.4'
+    ss.dependency 'NDUtils/UIKit', '~> 0.0.5'
   end
   
 end

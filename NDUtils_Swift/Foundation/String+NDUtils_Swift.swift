@@ -13,4 +13,19 @@ extension String {
   public static func nd_(named: String) -> Self {
     return Self(NSString.nd_(named: named))
   }
+
+  @inlinable
+  public func nd_urlSubdomain() -> String? {
+    NSString(string: self).nd_urlSubdomain()
+  }
+
+  @inlinable
+  public func nd_urlDomain() -> String? {
+    NSString(string: self).nd_urlDomain()
+  }
+
+  @inlinable
+  public func nd_urlTopLevelDomain() -> String? {
+    NSString(string: self).nd_urlTopLevelDomain()
+  }
 }
