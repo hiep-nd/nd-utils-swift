@@ -15,21 +15,6 @@ extension String {
   }
 
   @inlinable
-  public func nd_urlSubdomain() -> String? {
-    NSString(string: self).nd_urlSubdomain()
-  }
-
-  @inlinable
-  public func nd_urlDomain() -> String? {
-    NSString(string: self).nd_urlDomain()
-  }
-
-  @inlinable
-  public func nd_urlTopLevelDomain() -> String? {
-    NSString(string: self).nd_urlTopLevelDomain()
-  }
-
-  @inlinable
   public func nd_contains(regexPattern: String) -> Bool {
     NSString(string: self).nd_contains(regexPattern: regexPattern)
   }
